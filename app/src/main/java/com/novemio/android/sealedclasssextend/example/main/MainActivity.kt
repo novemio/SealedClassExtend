@@ -24,13 +24,15 @@ class MainActivity : Activity() {
 
         state.observeForever {
 
-            val returnNestop:String = it.run {
-                isError { "Bravo" } ?:isSuccess { "Cao" }!!
-            }
-            println(returnNestop)
 
-            it.isSuccess {
-                tvTitle.text="MIlan"
+            val message= it.run {
+                isError { "Bravo" } ?:
+                isSuccess { "Cao" }!!
+            }
+            println(message)
+
+            it.run {
+                isSuccess {  }
             }
         }
     }

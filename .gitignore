@@ -1,0 +1,20 @@
+*.iml
+.gradle
+/local.properties
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Idea :
+.idea/
+!.idea/codeStyles
+!.idea/dictionaries
+
+.gradle/
+
+
+hs_err*.log
+
+app/libs/
