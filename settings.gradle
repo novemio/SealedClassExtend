@@ -1,0 +1,2 @@
+rootProject.name='SealedClasssExtend'
+include ':app', ':sealed_annotations','sealed_processing'

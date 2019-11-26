@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SealedClasssExtend.iml" filepath="$PROJECT_DIR$/SealedClasssExtend.iml" group="SealedClasssExtend" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="SealedClasssExtend/app" />
+      <module fileurl="file://$PROJECT_DIR$/sealed_annotations/sealed_annotations.iml" filepath="$PROJECT_DIR$/sealed_annotations/sealed_annotations.iml" group="SealedClasssExtend/sealed_annotations" />
+      <module fileurl="file://$PROJECT_DIR$/sealed_processing/sealed_processing.iml" filepath="$PROJECT_DIR$/sealed_processing/sealed_processing.iml" group="SealedClasssExtend/sealed_processing" />
+    </modules>
+  </component>
+</project>
