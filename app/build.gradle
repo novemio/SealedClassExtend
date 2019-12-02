@@ -42,8 +42,9 @@ dependencies {
 
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation project(':sealed_annotations')
-    kapt project(':sealed_processing')
+    
+    implementation project(':sealedextend_annotation')
+    kapt project(':sealedextend_compiler')
 
     implementation 'com.android.support:multidex:1.0.3'
 

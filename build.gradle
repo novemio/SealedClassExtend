@@ -21,7 +21,8 @@ buildscript {
 }
 apply plugin: 'kotlin'
 
-
+def libGroup = 'com.novemio.sealedextension'
+def libVersion = '0.1.0'
 allprojects {
     repositories {
         google()

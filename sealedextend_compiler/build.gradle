@@ -13,7 +13,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
     implementation 'com.squareup:javapoet:1.11.1'
     implementation 'com.squareup:kotlinpoet:1.4.4'
-    implementation project(':sealed_annotations')
+    implementation project(':sealedextend_annotation')
 }
 
 sourceCompatibility = "1.8"
